@@ -18,7 +18,6 @@ public class OpenApplication {
 	driver.get("https://www.facebook.com");
 	 Thread.sleep(2000);
 	 driver.manage().window().maximize();
-	 driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[2]/button[1]']")).click();
-	 
+	 	 
 	}
 }
